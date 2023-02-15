@@ -1,0 +1,7 @@
+
+<app-searchbox [search]="this.getSearch.bind(this)"></app-searchbox>
+<div *ngIf="thumbnails" class="thumbnails">
+  <div *ngFor="let thumbnail of thumbnails; let i = index" class="single-thumbnail">
+    <app-thumbnail image="{{thumbnail.preview}}"></app-thumbnail>
+  </div>
+</div>

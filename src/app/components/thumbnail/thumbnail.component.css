@@ -1,0 +1,7 @@
+.thumbnail {
+  width: 120px;
+  display: flex;
+}
+.thumbnail img {
+  width: 120px;
+}

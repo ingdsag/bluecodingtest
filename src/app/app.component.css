@@ -1,0 +1,13 @@
+.thumbnails {
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  width: 80%;
+  margin-left: 10%;
+}
+.single-thumbnail {
+  display: flex;
+}
+:host {
+  height: 100%;
+}
